@@ -1,0 +1,12 @@
+-- CREATE TABLE BOOKSHELVES (id SERIAL PRIMARY KEY, name VARCHAR(255));
+-- create table bookshelves
+-- INSERT INTO bookshelves(name) SELECT DISTINCT bookshelf FROM books;
+-- insert unique bookshelf items into bookshelves
+-- ALTER TABLE books ADD COLUMN bookshelf_id INT;
+-- alter book table
+-- UPDATE books SET bookshelf_id=shelf.id FROM (SELECT * FROM bookshelves) AS shelf WHERE books.bookshelf = shelf.name;
+-- reroute paths of tables
+-- ALTER TABLE books DROP COLUMN bookshelf;
+-- drop bookshelf column
+-- ALTER TABLE books ADD CONSTRAINT fk_bookshelves FOREIGN KEY (bookshelf_id) REFERENCES bookshelves(id);
+-- add constraint to direct data to bookshelves
