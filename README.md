@@ -7,4 +7,4 @@ Start time: 11:30pm
 
 Finish time: 11:40pm
 
-Actual time needed to complete: 10min + 20 from class
+Actual time needed to complete: 10min + 20 from class = 30min
